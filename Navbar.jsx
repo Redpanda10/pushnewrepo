@@ -1,35 +1,40 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./navbar.css";
+import Tree from "../assets/tree.png";
 
-// export default function Navbar() {
-//   return (
-//     <>
-//       <div>
-//         <ul>
-//           <li>
-//             <Link to="/about">About</Link>
-//           </li>
-//           <li>
-//             <Link to="/contact">Contact</Link>
-//           </li>
-//           <li>
-//             <Link to="/home">Home</Link>
-//           </li>
-//           <li>
-//             <Link to="/loginpage">
-//               <button>Login</button>
-//             </Link>
-//           </li>
-//           <li>
-//             <button>Search</button>
-//           </li>
-//           <li>
-//             <input type="text" placeholder="Search Hotel" />
-//           </li>
-//         </ul>
-//       </div>
-//     </>
-//   );
-// }
-export default function Navbar() {
-  return <div>hello its navbar</div>;
+export default function navbar() {
+  return (
+    <div className="navbar-items">
+      <div id="just4logo">
+        <img src={Tree} id="logo"/>
+      </div>
+      <ul id="nav-ul">
+        <li id="listtonav">
+          <Link to="/Home">Home</Link>
+          
+        </li>
+        <li id="listtonav">
+          <Link to="/About">About</Link>
+        </li>
+        <li id="listtonav">
+          <Link to="/Service"  >Services</Link>
+
+        </li>
+        <li id="listtonav">
+          <Link to="/Portfolio"  >Portfolio</Link>
+
+        </li>
+        
+        <li id="listtonav">
+          <Link to="/Testimonials">Testimonials</Link>
+        </li>
+        <li id="listtonav">
+          <Link to="/Blog">Blog</Link>
+        </li>
+        <li id="listtonav">
+          <Link to="/Contact">Contact</Link>
+        </li>
+      </ul>
+    </div>
+  );
 }
