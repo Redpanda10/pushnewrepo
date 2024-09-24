@@ -1,0 +1,40 @@
+.navbar-items{
+    font-size: large;
+    color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: right;
+    padding: 25px 20px;
+    background-color: rgb(208, 179, 179);
+}
+
+
+/* .Nav-list{
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: inline;
+    
+} */
+li{
+    display: inline;
+    list-style: none;
+    padding-top: 45px;
+    color: aliceblue;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#nav-ul{
+    text-decoration: none;
+}
+img{
+    align-items: center;
+    height: 50px;
+    width: 40px;
+}
+.justforlogo{
+    display: inline;
+    list-style: none;
+    padding-top: 45px;
+    margin-right: 40px;
+}
